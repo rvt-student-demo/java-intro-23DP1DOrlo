@@ -13,7 +13,7 @@ public class goft {
             System.out.println("No tax!");
         } else if (number > 4999 && number < 25001) {
             System.out.println("Tax: " + (100+(number-5000)*0.08));
-        } else if (number > 24999 && number < 55001) {
+        } else if (number > 24999 && number < 55001) {  
             System.out.println("Tex: " + (1700+(number-25000)*0.10));
         } else if (number > 54999 && number < 200001) {
             System.out.println("Tex: " + (4700+(number-55000)*0.12));
