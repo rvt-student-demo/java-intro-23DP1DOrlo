@@ -23,11 +23,10 @@ public class repeat {
             odd++;
         }
     }
-        float average = summa/sumnum;
         System.out.println("Thx! Bye!");
         System.out.println("Sum: " + summa);
         System.out.println("Numbers: " + sumnum);
-        System.out.println("Average: " + average);
+        System.out.println("Average: " + ((double)summa / sumnum));
         System.out.println("Even: " + even);
         System.out.println("Odd: " + odd);
 
