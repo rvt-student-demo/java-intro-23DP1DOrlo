@@ -14,15 +14,20 @@ public class pashol {
             }   
             numbers.add(number);
         }
+        
         System.out.print("From where? ");
         int start = scanner.nextInt();
         System.out.print("To where? ");
         int fin = scanner.nextInt();
-        for(int i = start; i <= fin; i++){
-            System.out.println(numbers.get(i));
-        }
+
+        if (start < 0 || fin >= numbers.size() || start > fin) {
+            System.out.println("Index is not correct!!!");
+        } 
+        else {
+            for(int i = start; i <= fin; i++){
+                System.out.println(numbers.get(i));
+            }
         scanner.close();
-
-
+    }
     }
 }
