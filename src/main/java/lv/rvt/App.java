@@ -37,20 +37,32 @@ public class App {
         // alexander.knock();
         // alexander.knock();
         // ------------------------------
-        Debt mortgage = new Debt(120000.0, 1.01);
-        mortgage.printBalance();
+        // Debt mortgage = new Debt(120000.0, 1.01);
+        // mortgage.printBalance();
 
-        mortgage.waitOneYear();
-        mortgage.printBalance();
+        // mortgage.waitOneYear();
+        // mortgage.printBalance();
 
-        int years = 0;
+        // int years = 0;
 
-        while (years < 20) {
-            mortgage.waitOneYear();
-            years = years + 1;
-        }
+        // while (years < 20) {
+        //     mortgage.waitOneYear();
+        //     years = years + 1;
+        // }
 
-        mortgage.printBalance();
+        // mortgage.printBalance();
+        // ------------------------------
+        // Teacher first = new Teacher();
+        // Teacher second = new Teacher();
+        // Teacher third = new Teacher();
+
+        // double average = (first.grade() + second.grade() + third.grade()) / 3.0;
+
+        // System.out.println("Grading average " + average);
+        // ------------------------------
+        Song garden = new Song("In The Garden", 10910);
+        System.out.println("The song " + garden.name() + " has a length of " + garden.length() + " seconds.");
+
         }
     }
     
