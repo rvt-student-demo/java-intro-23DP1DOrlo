@@ -12,5 +12,4 @@ public class Product {
     public void printProduct() {
         System.out.println(name + ", " + "price " + price + ", " + quant + "pcs");
     }
-
 }

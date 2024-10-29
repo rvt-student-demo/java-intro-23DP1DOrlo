@@ -17,10 +17,26 @@ public class App {
         // System.out.println("End state");
         // System.out.println(matthewsAccount);
         // System.out.println(mySwissAccount);
+        // ------------------------------
             // Student matt = new Student();
             // matt.play();
-        Product product = new Product("Banana", 1.1,13);
-        product.printProduct();
+            // --------------------------
+        // Product product = new Product("Banana", 1.1,13);
+        // product.printProduct();
+        // ------------------------------
+            // Person ada = new Person("Ada");
+            // Person antti = new Person("Antti");
+            // Person martin = new Person("Martin");
+    
+            // ada.printPerson();
+            // antti.printPerson();
+            // martin.printPerson();
+        // ------------------------------
+        Door alexander = new Door();
+        
+        alexander.knock();
+        alexander.knock();
         }
     }
+    
 
