@@ -10,6 +10,6 @@ public class Product {
         this.quant = initialQuantity;
     }
     public void printProduct() {
-        System.out.println(name + ", " + "price " + price + ", " + quant + "pcs");
+        System.out.println(name + ", price " + price + ", " + quant + "pcs");
     }
 }

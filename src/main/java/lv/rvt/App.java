@@ -1,7 +1,10 @@
 package lv.rvt;
 
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) {
+        // Scanner scanner = new Scanner(System.in);
         // Account matthewsAccount = new Account("Matthews's account", 1000.00);
         // Account mySwissAccount = new Account("My account", 0);
 
@@ -22,7 +25,9 @@ public class App {
             // matt.play();
             // --------------------------
         // Product product = new Product("Banana", 1.1,13);
+        // Product product2 = new Product("Maize", 1.6,10);
         // product.printProduct();
+        // product2.printProduct();
         // ------------------------------
             // Person ada = new Person("Ada");
             // Person antti = new Person("Antti");
@@ -60,10 +65,31 @@ public class App {
 
         // System.out.println("Grading average " + average);
         // ------------------------------
-        Song garden = new Song("In The Garden", 10910);
-        System.out.println("The song " + garden.name() + " has a length of " + garden.length() + " seconds.");
+        // Song garden = new Song("In The Garden", 10910);
+        // System.out.println("The song " + garden.name() + " has a length of " + garden.length() + " seconds.");
+        // ------------------------------
+        // Film chipmunks = new Film("Alvin and the Chipmunks: The Squeakquel", 0);
 
-        }
+        // Scanner reader = new Scanner(System.in);
+
+        // System.out.println("How old are you?");
+        // int age = Integer.valueOf(reader.nextLine());
+
+        // System.out.println();
+        // if (age >= chipmunks.ageRating()) {
+        //     System.out.println("You may watch the film " + chipmunks.name());
+        // } else {
+        //     System.out.println("You may not watch the film " + chipmunks.name());
+        // }
+        // ----------------------------------
+        // Animal animal1 = new Animal("Cat");
+        // Animal animal2 = new Animal("Dog");
+
+        // System.out.println(animal1);
+        // System.out.println(animal2);
+        // String animalAsString = animal1.toString();
+        // ----------------------------
+        Agent bond = new Agent("James", "Bond");
+        System.out.println(bond);        
     }
-    
-
+}

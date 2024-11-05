@@ -10,4 +10,13 @@ public class Person {
         public void printPerson() {
             System.out.println(this.name + ", age " + this.age + " years");
         }
+
+        public void growOlder() {
+            if (this.age < 30) {
+                this.age += 1;
+            }
+        }
+        public int returnAge() {
+            return this.age;
+        }
 }
