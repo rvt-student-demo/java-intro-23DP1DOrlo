@@ -1,80 +1,22 @@
 package lv.rvt;
 
+import java.io.BufferedReader;
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) {
-        // System.out.println("\nPart 1\n");
-        // PaymentCard card = new PaymentCard(50);
-        // System.out.println(card);
+    public static void main(String[] args) throws Exception {
+        // Scanner scanner = new Scanner(System.in);
+        Timer timer = new Timer();
 
-
-        // System.out.println("\nPart 2\n");
-        // PaymentCard card = new PaymentCard(50);
-        // System.out.println(card);
-
-        // card.eatAffordably();
-        // System.out.println(card);
-
-        // card.eatHeartily();
-        // card.eatAffordably();
-        // System.out.println(card);
-
-
-        // System.out.println("\nPart 3\n");
-        // PaymentCard card = new PaymentCard(5);
-        // System.out.println(card);
-
-        // card.eatHeartily();
-        // System.out.println(card);
-
-        // card.eatHeartily();
-        // System.out.println(card);
-
-
-        // System.out.println("\nPart 4\n");
-        // PaymentCard card = new PaymentCard(10);
-        // System.out.println(card);
-
-        // card.addMoney(15);
-        // System.out.println(card);
-
-        // card.addMoney(10);
-        // System.out.println(card);
-
-        // card.addMoney(200);
-        // System.out.println(card);
-
-
-        // System.out.println("\nPart 5\n");
-        // PaymentCard card = new PaymentCard(10);
-        // System.out.println("Paul: " + card);
-        // card.addMoney(-15);
-        // System.out.println("Paul: " + card);
-
-
-        System.out.println("\nPart 6\n");
-        PaymentCard paulsCard = new PaymentCard(20);
-        PaymentCard mattsCard = new PaymentCard(30);
-        paulsCard.eatHeartily();
-        mattsCard.eatAffordably();
-        System.out.println("Paul " + paulsCard);
-        System.out.println("Matt " + mattsCard);
-
-        paulsCard.addMoney(20);
-        mattsCard.eatHeartily();
-        System.out.println("Paul " + paulsCard);
-        System.out.println("Matt " + mattsCard);
-
-        paulsCard.eatAffordably();
-        paulsCard.eatAffordably();
-        mattsCard.addMoney(50);
-        System.out.println("Paul " + paulsCard);
-        System.out.println("Matt " + mattsCard);
-
-
-
-
-
+        while (true) {
+            System.out.println(timer);
+            timer.advance();
+        
+            try {
+                Thread.sleep(10);
+            } catch (Exception e) {
+        
+            }
+        }
     }
 }
