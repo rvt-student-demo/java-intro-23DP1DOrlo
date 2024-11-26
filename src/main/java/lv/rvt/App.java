@@ -6,12 +6,12 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         // Scanner scanner = new Scanner(System.in);
-        Product tapeMeasure = new Product("Tape measure");
-        Product plaster = new Product("Plaster", "home improvement section");
-        Product tyre = new Product("Tyre", 5);
+        BufferedReader reader = Helper.getReader("persons.csv");
 
-        System.out.println(tapeMeasure);
-        System.out.println(plaster);
-        System.out.println(tyre);
+        String line;
+        reader.readLine();
+        while((line = reader.readLine()) != null) {
+            System.out.println(line);
+        }
     }
 }
