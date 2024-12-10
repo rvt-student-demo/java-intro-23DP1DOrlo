@@ -19,7 +19,5 @@ public class PersonManager {
             persons.add(person1);
         }
         return persons;
-       
-
     }
 }
