@@ -12,7 +12,7 @@ public class PaymentCard {
         public String toString() {
             return "The card has a balance of "+ balance + " euros";
         }
-
+x
         public void eatAffordably() {
             if(balance - 2.60 >= 0) {
                 balance -= 2.60;
