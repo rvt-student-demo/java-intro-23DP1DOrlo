@@ -4,7 +4,6 @@ public class Box {
     private double length;
     private double width;
     private double height;
-    private double side;
 
     public Box(double width, double height, double length) {
         this.width = width;
@@ -20,7 +19,9 @@ public class Box {
 
 
     public Box(double side){
-        this.side = side;
+        this.height = side;
+        this.length = side;
+        this.width = side;
     }
 
     public double volume() {
@@ -55,4 +56,12 @@ public class Box {
         return length;
     }
 
+    public boolean nests(Box outsideBox){
+        if(this.width < outsideBox.width &&
+        this.height < outsideBox.height &&
+        this.length < outsideBox.length){
+            return true;
+        }return false;
+    }
 }
+
